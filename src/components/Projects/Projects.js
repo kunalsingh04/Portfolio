@@ -7,6 +7,7 @@ import esb from "../../Assets/Projects/ESB.png";
 import cse from "../../Assets/Projects/cse.png";
 import gym from "../../Assets/Projects/gym.png";
 import weather from "../../Assets/Projects/weather.png";
+import vmeet from "../../Assets/Projects/vmeet.png";
 
 function Projects() {
   return (
@@ -55,7 +56,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={vmeet}
               isBlog={false}
               title="V-Meet"
               description="Developed a real-time video chat application using Socket.IO, enabling users to engage in face-to-face communication over the internet. Implemented WebRTC for peer-to-peer communication, ensuring direct data transfer between users' web browsers. Created an intuitive interface for seamless user interaction."
