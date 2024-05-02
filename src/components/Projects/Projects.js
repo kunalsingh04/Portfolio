@@ -53,16 +53,16 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="V-Meet"
+              description="Developed a real-time video chat application using Socket.IO, enabling users to engage in face-to-face communication over the internet. Implemented WebRTC for peer-to-peer communication, ensuring direct data transfer between users' web browsers. Created an intuitive interface for seamless user interaction."
+              ghLink="https://github.com/kunalsingh04/V-Meet"
+              
             />
-          </Col> */}
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
